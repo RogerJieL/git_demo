@@ -1,0 +1,41 @@
+@charset "UTF-8";
+#top{
+	background-image:url(../images/top-image/bgjiaowu.jpg);width:1000px;height:220px
+	}
+ul{/*设置导航栏的框框*/		 	
+	margin: 30px 10px;/*框框整体的位置，30px是指离网页的顶部和下部的距离，auto控制的是左右距离为自动调节*/			
+	width: 250px;/*框框的宽度*/			
+	height: 200px;/*框框的长度*/			
+	padding: 0px;/*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/			
+	/* border:1px solid #000;添加边框		 */}
+li{list-style-type: none;/* 去掉li前的点 */}
+		
+a {text-decoration:none;}
+
+#mainl{border:1px solid #000;/*添加边框*/
+float:left;
+clear: both;}
+#mainr{border:1px solid #000;/*添加边框*/
+width: 1000px;/*框框的宽度*/			
+	height: 490px;/*框框的长度*/	
+}
+
+#daohang ul li {
+display:block;
+float:left;
+padding:10px;
+text-align:center;
+}
+#daohang ul li a {text-decoration:none;}
+#daohang ul li a:hover {
+display:block; color:#FFFFFF; background:#DC143C;
+        }
+#daohang ul{width:1000px;height:60px}
+#daohang1 span a:hover{display:block; color:#FFFFFF; background:#DC143C;}
+
+
+
+
+
+
+
